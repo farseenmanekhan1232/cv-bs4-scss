@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700|Roboto:300,400,500,700,900&amp;display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.front-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+.front-page .me {
+  max-width: 800px;
+  display: flex;
+  flex-direction: row;
+  font-weight: 300;
+  justify-content: center;
+  align-items: center;
+}
+.front-page .me .name {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.front-page .me img {
+  width: 300px;
+  -webkit-clip-path: circle();
+          clip-path: circle();
+}
+
+.about {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+}
+.about .social-handles {
+  display: flex;
+  margin: 10px 10px 10px 0;
+  height: 60px;
+  margin-bottom: 50px;
+}
+.about .social-handles .icon {
+  margin: 5px;
+}
+.about .social-handles .icon img {
+  max-width: 40px;
+  padding: 5px;
+}
+.about .social-handles .icon img:hover {
+  border-bottom: 3px solid lightgrey;
+}
+
+.skills {
+  max-width: 700px;
+  margin-bottom: 70px;
+  display: flex;
+  justify-content: space-between;
+}
+.skills .skill {
+  margin: 10px 0 20px 0;
+  max-width: 300px;
+}
+.skills .skill .fillercontainer {
+  width: 300px;
+  max-width: 300px;
+  height: 15px;
+  background-color: grey;
+  border-radius: 3px;
+}
+.skills .skill .fillercontainer .filler1 {
+  height: 15px;
+  background-color: rgb(124, 174, 255);
+  width: 250px;
+  max-width: 300px;
+  border-radius: 3px;
+}
+.skills .skill .fillercontainer .filler2 {
+  height: 15px;
+  background-color: rgb(124, 174, 255);
+  width: 150px;
+  max-width: 300px;
+  border-radius: 3px;
+}
+
+.tech {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+}
+.tech .stack-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.tech .stack-list .stack {
+  display: flex;
+  width: 250px;
+  padding: 20px;
+  border-radius: 3px;
+  transition-duration: 0.5s;
+}
+.tech .stack-list .stack .icon {
+  margin: 0 10px 0 0;
+  width: 30px;
+  height: 30px;
+}
+.tech .stack-list .stack:hover {
+  background-color: rgb(222, 222, 222);
+}
+
+.main-text {
+  z-index: 1;
+  margin-bottom: 50px;
+}
+
+.bg-text {
+  position: absolute;
+  color: rgb(230, 230, 230);
+}
+
+.circ {
+  position: fixed;
+  bottom: 3px;
+  border: 2px solid black;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition-duration: 0.2s;
+}
+.circ img {
+  width: 20px;
+}/*# sourceMappingURL=main.css.map */

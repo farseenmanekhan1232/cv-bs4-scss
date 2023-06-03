@@ -134,7 +134,7 @@ body {
 .circ {
   position: fixed;
   bottom: 3px;
-  border: 2px solid black;
+  border: 2px solid rgb(0, 0, 0);
   border-radius: 50%;
   width: 40px;
   height: 40px;
@@ -145,4 +145,7 @@ body {
 }
 .circ img {
   width: 20px;
+}
+.circ:hover {
+  opacity: 0.6;
 }/*# sourceMappingURL=main.css.map */
